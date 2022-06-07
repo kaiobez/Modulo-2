@@ -1,0 +1,113 @@
+body{ 
+    background-image: url(../img/bc.jpg);
+    background-repeat:repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+        /*background-color: #75b7fd;*/
+    }
+    
+    table{
+        background-color:  rgb(0, 0, 0);
+        margin: auto;
+        width: 600px;
+    }
+    
+    table tr td{
+        padding: 10px;
+    }
+    
+    #header_box img{
+        width: 100%
+        
+    } 
+    
+    #nav_box{
+        border-top: 8px solid  #701319;
+        font-family: 'BankGothic Lt BT';
+        background-color: #ffffff;
+        padding: 0px;
+        margin: 0px;
+        height: 45px;
+    }
+    
+    #nav_box ul{
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #nav_box li{
+        float: left;
+    }
+    
+    .active{
+        background-color: 
+        #701319;
+        color: white ;
+    }
+    
+    #nav_box a{
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    #nav_box a:hover:not(.active){
+        background-color: #07afe8;
+        color: white;
+        transition: 0.4s ;
+    }
+    
+    .article_box{
+        padding: 50px;
+        width: 60%;
+        font-family: 'BankGothic Lt BT'
+    }
+    
+    .article_box p{
+        font-size: 18px;
+        text-align: justify;
+        color: azure;
+        
+    }
+    
+    .article_box h2{
+        border-bottom: 10px solid #42607b ;
+        color: azure;
+    }
+    
+    #image_box{
+        width: 40%;
+        background-color: 
+        #42607b ;
+    }
+    
+    #image_box img{
+        width: 100%;
+    }
+    
+    #footer_box{
+        text-align: center;
+        height: 50px;
+        color: azure;
+    }
+    
+    .hq_box{
+        padding: 50px;
+       
+    
+    }
+
+    .hq_box img{
+        width: 100%;
+    }
+    
+ 
+    
+    .hq_box h2{
+        border-bottom: 10px solid #1487FF;
+        color: azure;
+        text-align: center;
+    }
+
+    
